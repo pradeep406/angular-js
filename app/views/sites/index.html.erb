@@ -1,0 +1,12 @@
+<div id="sites_list">
+  <%= render "site_list" %>
+</div>
+<div id="sites_form">
+ <%= render "site_form" %>
+</div>
+<script>
+  $('#reset_site').click(function () {
+      $('#form_site')[0].reset();
+  });
+</script>
+
